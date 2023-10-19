@@ -10,11 +10,11 @@ employees
 -
 emp_no PK int 
 emp_title_id varchar(5) fk >- titles.title_id  
-birth_date date
+birth_date  varchar(20)
 first_name varchar(20)
 last_name varchar(20) 
 sex varchar(1)
-hire_date date
+hire_date varchar(20)
 
 departments 
 -
@@ -26,7 +26,7 @@ dept_emp
 emp_no PK int fk >- employees.emp_no
 dept_no PK varchar(4) fk >- departments.dept_no
 
-department_manager
+dept_manager
 -
 dept_no varchar(4) fk >- departments.dept_no
 emp_no PK int fk - employees.emp_no
