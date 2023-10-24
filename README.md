@@ -92,8 +92,69 @@ To look at a glance, one of the main table query is here (with first five rows):
 
 ### 5 Data Analysis
 
-- 
+Our observation of data analysis depicta the information as required for each query (with first 10 rows).
 
 
+#### 5.1 Salary by Employee
+
+List the employee number, last name, first name, sex, and salary of each employee
+
+
+![Alt text](Images/1_Salary_by_Employee.png)
+
+
+#### 5.2 Employees Hired in 1986
+
+List the first name, last name, and hire date for the employees who were hired in 1986
+
+
+![Alt text](Images/2_Employees_hired_in_1986.png)
+
+
+
+#### 5.3 Manager of Each Department
+
+List the manager of each department along with their department number, department name, employee number, last name, and first name (2 points)
+
+
+![Alt text](<Images/3_manager of each department.png>)
+
+
+#### 5.4 Department of Each Employee
+
+List the department number for each employee along with that employee’s employee number, last name, first name, and department name.
+
+![Alt text](<Images/4_Department of Each Employee.png>)
+
+#### 5.5 Employees whose first name is "Hercules" and last names begin with "B"
+
+List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+
+
+![Alt text](Images/5_Hercules.png)
+
+
+#### 5.6 Employees in the Sales Department
+
+List each employee in the Sales department, including their employee number, last name, and first name.
+
+
+![Alt text](Images/6_Employees_in_Sales_Department.png)
+
+
+#### 5.7 Employees in the Sales and Development Departments
+
+List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
+
+
+![Alt text](Images/7_Sales_and_Development.png)
+
+
+#### 5.8 Frequency of Employee Last Names
+
+List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
+
+
+![Alt text](<Images/8_Frequency of Employees Last Name.png>)
 
 

@@ -18,7 +18,7 @@ from employees as employee_info
 		
 		ORDER BY employee_info.emp_no
 		
-		limit 5;
+		limit 10;
 		
 		
 		
@@ -59,7 +59,7 @@ from employees as employee_info
 		
 		ORDER BY employee_info.emp_no
 		
-		limit 5;
+		limit 10;
 
 
 
@@ -84,7 +84,7 @@ From employees as employee_info
 	
 	order by employee_info.emp_no
 	
-	limit 5;
+	limit 10;
 	
 	
 -- List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
@@ -118,7 +118,7 @@ from employees as employee_info
     
 	order by employee_info.emp_no
 	
-	limit 5;
+	limit 10;
 
 
 -- List each employee in the Sales and Development departments, including their employee number, last name, first name, and department name.
@@ -140,7 +140,7 @@ from employees as employee_info
 	on department_employee.dept_no = departments_info.dept_no
 where departments_info.dept_name in ('Sales', 'Development')
 order by employee_info.emp_no
- limit 5;
+ limit 10;
 	
 -- List the frequency counts, in descending order, of all the employee last names (that is, how many employees share each last name).
 -- Frequency of Employee last names
@@ -148,4 +148,4 @@ select last_name, count (last_name)
 from employees
 group by last_name
 order by count(last_name) desc
-limit 5;
+limit 10;
