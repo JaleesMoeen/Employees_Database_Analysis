@@ -114,7 +114,7 @@ List the first name, last name, and hire date for the employees who were hired i
 
 #### 5.3 Manager of Each Department
 
-List the manager of each department along with their department number, department name, employee number, last name, and first name (2 points)
+List the manager of each department along with their department number, department name, employee number, last name, and first name 
 
 
 ![Alt text](<Images/3_manager of each department.png>)

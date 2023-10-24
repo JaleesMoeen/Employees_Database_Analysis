@@ -1,7 +1,7 @@
 -- Data Analysis (20 points)
 
 
--- List the employee number, last name, first name, sex, and salary of each employee (2 points)
+-- List the employee number, last name, first name, sex, and salary of each employee
 -- Salary by Employee
 
 select employee_info.emp_no,
@@ -23,7 +23,7 @@ from employees as employee_info
 		
 		
 		
--- List the first name, last name, and hire date for the employees who were hired in 1986 (2 points)
+-- List the first name, last name, and hire date for the employees who were hired in 1986 
 -- Employees Hired in 1986
 
 select last_name, first_name, hire_date
@@ -37,7 +37,7 @@ where extract (year from hire_date) = 1986;
 
 
 
--- List the manager of each department along with their department number, department name, employee number, last name, and first name (2 points)
+-- List the manager of each department along with their department number, department name, employee number, last name, and first name 
 -- Manager of Each Department 
 select 	employee_info.emp_no,
 		department_manager.dept_no,
