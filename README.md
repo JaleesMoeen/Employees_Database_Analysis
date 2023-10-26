@@ -92,7 +92,7 @@ To look at a glance, one of the main table query is here (with first five rows):
 
 ### 5 Data Analysis
 
-Our observation of data analysis depicta the information as required for each query (with first 10 rows).
+Our observation of data analysis depicts the information as required for each query (with first 10 rows).
 
 
 #### 5.1 Salary by Employee
